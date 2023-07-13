@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/projet-lb-informatique/static/css/main.18a0cf22.css",
+    "main.js": "/projet-lb-informatique/static/js/main.d7ee5214.js",
+    "static/media/pngegg.png": "/projet-lb-informatique/static/media/pngegg.93f3507f5a66644967a2.png",
+    "static/media/logo.png": "/projet-lb-informatique/static/media/logo.b8555bf567288bf2da96.png",
+    "index.html": "/projet-lb-informatique/index.html",
+    "main.18a0cf22.css.map": "/projet-lb-informatique/static/css/main.18a0cf22.css.map",
+    "main.d7ee5214.js.map": "/projet-lb-informatique/static/js/main.d7ee5214.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18a0cf22.css",
+    "static/js/main.d7ee5214.js"
+  ]
+}
