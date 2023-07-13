@@ -10,7 +10,7 @@ function Error() {
             </div>
             
             <div className='error_text'>
-                Oups! La page que vous demandez n'existe pas.
+                Oups! Une erreur est survenue.
             </div>
             
             <Link className="error_link" to="/">

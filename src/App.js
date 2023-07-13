@@ -4,7 +4,7 @@ import Home from './Pages/Home'
 import Footer from './Components/Footer'
 import Error from './Pages/404'
 import About from './Pages/About'
-//import './Styles/Index.scss'
+import './Styles/Index.scss'
 
 
 

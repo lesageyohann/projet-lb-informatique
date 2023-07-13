@@ -18,6 +18,48 @@ function Contact() {
             </Link>
 
         </section>
+        <main>
+        <div className='Info'>
+            <div className='textcontener'>
+                Info
+            </div>
+            <div className='imagecontener'>
+                carouselle
+            </div>
+        </div>
+        <div className='particulier'>
+            <div className='textcontener'>
+                Particulier
+            </div>
+            <div className='imagecontener'>
+
+            </div>
+        </div>
+        <div className='pro'>
+            <div className='textcontener'>
+                pro
+            </div>
+            <div className='imagecontener'>
+
+            </div>
+        </div>
+        <div className='qui'>
+            <div className='textcontener'>
+                qui somme nous
+            </div>
+            <div className='imagecontener'>
+
+            </div>
+        </div>
+        <div className='carte'>
+            <div className='textcontener'>
+                acces
+            </div>
+            <div className='imagecontener'>
+
+            </div>
+        </div>
+    </main>
 
     )
 
