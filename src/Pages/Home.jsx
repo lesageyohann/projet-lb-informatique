@@ -6,6 +6,7 @@ import tell from '../Assets/tell.png'
 import mail from '../Assets/mail.png'
 import adress from '../Assets/adress.png'
 import map from '../Assets/map.png'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -23,49 +24,76 @@ function Home() {
 
             <div className='home_part'>
                 <article className='home_part_art'>
-                    <h2 className='home_part_art_title'>Un professionnel à votre porte</h2>
-                    <p className='home_part_art_texte'>- Marre de payer trop cher ? LB-informatique pratique des tarifs pour tous budgets.
-
-                        - Ordinateur en panne ? bloqué ? ralenti ? LB-informatique est là pour vous apporter une solution.
-
-                        - Conseil et mise en place de votre box ou de vos équipements.
-
-                        - Possibilité d'intervention à domicile sur RDV.
-
-                        - Initiation de base à l'utilisation de votre matériel informatique et du pack Office (World, Excel, Powerpoint...).
-
-                        - Optimisation ou création de votre poste informatique.
-
-                        - Forfait prise en main à distance.
-
-                        - Forfait nettoyage anti virus PC 30€ , ne payez pas pour l'inutile.
-
-                        - Pourquoi changer votre poste informatique si nous pouvons le réparer?
-                        (vente de pièces d'occasion dans la limite des stocks disponibles)
-
-                        - Priviligions le recyclage quand cela est possible pour faire un geste pour la planète.
-
-                        - N'hésitez pas à nous contacter</p>
-                </article>
-                <div className='home_part_div'>
-                <img className="home_part_div_img" src={part} alt='logo entreprise'/>
-                </div>
+                    <div className='home_part_art_div1'>
+                        <h2 className='home_part_art_div1_title'>Un professionnel à votre porte</h2>
+                        <div className='home_part_art_div1_imgdiv'>
+                            <img className="home_part_art_div1_imgdiv_img" src={part} alt='logo entreprise'/>
+                         </div>
+                    </div>
+                    <div className='home_part_art_div2'>
+                        <p className='home_part_art_div2_texte'>Marre de payer trop chère? Ordinateur en panne ? Ralenti ? Bloqué ? <strong>LB-informatique</strong> propose des solutions pour tout les budgets. </p>
+                        <p className='home_part_art_div2_texte'>L'équipe <strong>LB-informatique</strong> priviligie le recyclage et l'occasion quand cela est possible ainsi qu'une approche durable pour vos équipements et la relation client. </p>
+                        <p className='home_part_art_div2_texte'>Du conseil à la mise en place, en passant par des formations, notre équipe saura vous accueillir et répondre à vos besoin et pourra aussi se déplacer chez vous sur rendez-vous. </p>
+                        <p className='home_part_art_div2_texte'>N'hésitez pas à nous <Link className="home_part_art_div2_link" to="/Contact">contacter</Link>.</p>
+                        
+                    </div>
+                </article>                
             </div>
 
             
             <div className='home_pro'>
+                <h2 className='home_pro_title'>Professionnel ?</h2>
+                <p className='home_pro_stitle'><strong>LB-informatique</strong> propose divers prestations :</p>
                 <div className='home_pro_div'>
-                <img className="home_pro_div_img" src={pro} alt='professionel informatique'/>
-                </div>
-                <article className='home_pro_art'>
-                    <h2 className='home_pro_article_art_title'>Des solutions pour votre parc informatique</h2>
-                    <p className='home_pro_article_art_texte'>- Besoin de formation pour votre personnel ?
-                        - Besoin de renouveller ou optimiser votre parc informatique,
-                        - Vos équipements subissent des ralentissements ? Serveur en panne ?
-                        - Vous avez un site web, nous vous proposons un pack complet (nom de domaine, hebergement web)
-                        - Nous sommes là pour vous apporter des solutions.
-                        - N'hésitez pas à nous contacter pour une demande de devis</p>
-                </article>                
+
+                    <article className='home_pro_div_art'>
+                        <h3 className='home_pro_div_art_title'>Formations</h3>
+                        <span className='home_pro_div_art_border'/>
+                        <ul className='home_pro_div_art_list'>
+                            <li className='home_pro_div_art_list_1'>- Matériels</li>
+                            <li className='home_pro_div_art_list_2'>- Logiciels</li>
+                            <li className='home_pro_div_art_list_3'>- Accompagnements</li>
+                        </ul>
+                        <span className='home_pro_div_art_border'/>
+                        <p><Link className='home_pro_div_art_link' to="/Contact">Contactez nous</Link></p>
+                    </article>
+
+                    <article className='home_pro_div_art'>
+                        <h3 className='home_pro_div_art_title'>Matériels</h3>
+                        <span className='home_pro_div_art_border'/>
+                        <ul className='home_pro_div_art_list'>
+                            <li className='home_pro_div_art_list_1'>- Matériels</li>
+                            <li className='home_pro_div_art_list_2'>- Logiciels</li>
+                            <li className='home_pro_div_art_list_3'>- Accompagnements</li>
+                        </ul>
+                        <span className='home_pro_div_art_border'/>
+                        <p><Link className='home_pro_div_art_link' to="/Contact">Contactez nous</Link></p>
+                    </article>
+
+                    <article className='home_pro_div_art'>
+                        <h3 className='home_pro_div_art_title'>Optimisations</h3>
+                        <span className='home_pro_div_art_border'/>
+                        <ul className='home_pro_div_art_list'>
+                            <li className='home_pro_div_art_list_1'>- Matériels</li>
+                            <li className='home_pro_div_art_list_2'>- Logiciels</li>
+                            <li className='home_pro_div_art_list_3'>- Accompagnements</li>
+                        </ul>
+                        <span className='home_pro_div_art_border'/>
+                        <p><Link className='home_pro_div_art_link' to="/Contact">Contactez nous</Link></p>
+                    </article>
+
+                    <article className='home_pro_div_art'>
+                        <h3 className='home_pro_div_art_title'>Hébergements</h3>
+                        <span className='home_pro_div_art_border'/>
+                        <ul className='home_pro_div_art_list'>
+                            <li className='home_pro_div_art_list_1'>- Matériels</li>
+                            <li className='home_pro_div_art_list_2'>- Logiciels</li>
+                            <li className='home_pro_div_art_list_3'>- Accompagnements</li>
+                        </ul>
+                        <span className='home_pro_div_art_border'/>
+                        <p><Link className='home_pro_div_art_link' to="/Contact">Contactez nous</Link></p>
+                    </article>
+                </div>            
             </div>
 
 
