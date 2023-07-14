@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projet-lb-informatique/static/css/main.6fcd5355.css",
-    "main.js": "/projet-lb-informatique/static/js/main.f24872c9.js",
+    "main.js": "/projet-lb-informatique/static/js/main.8b3ce20d.js",
     "static/media/pro.png": "/projet-lb-informatique/static/media/pro.e16fba041b976bf79bfe.png",
     "static/media/pngegg.png": "/projet-lb-informatique/static/media/pngegg.93f3507f5a66644967a2.png",
     "static/media/team.png": "/projet-lb-informatique/static/media/team.e54c2fa040ed029d57bf.png",
@@ -11,10 +11,10 @@
     "static/media/tell.png": "/projet-lb-informatique/static/media/tell.030931bcc1ccc3fe334b.png",
     "index.html": "/projet-lb-informatique/index.html",
     "main.6fcd5355.css.map": "/projet-lb-informatique/static/css/main.6fcd5355.css.map",
-    "main.f24872c9.js.map": "/projet-lb-informatique/static/js/main.f24872c9.js.map"
+    "main.8b3ce20d.js.map": "/projet-lb-informatique/static/js/main.8b3ce20d.js.map"
   },
   "entrypoints": [
     "static/css/main.6fcd5355.css",
-    "static/js/main.f24872c9.js"
+    "static/js/main.8b3ce20d.js"
   ]
 }
