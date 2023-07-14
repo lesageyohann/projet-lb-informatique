@@ -104,7 +104,7 @@ function Home() {
 
                         Notre technicien a évolué avec de grandes marques (Cisco, Dell, Alphalink, OVH, Google, Bosh, Cyberoam, Gigaset)
 
-                        Habilité aux outils Windows, Linux, VmWare et Promox.
+                        Habilité aux outils fqWindows, Linux, VmWare et Promox.
 
                         LB-informatique saura répondre au mieux à votre demande concernant votre architecture.
                         L'informatique plus qu'un métier, une passion.</p>
