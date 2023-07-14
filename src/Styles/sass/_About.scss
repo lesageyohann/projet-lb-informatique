@@ -28,6 +28,7 @@
     &_coms{
         display: flex;
         margin-top: 50px;
+        margin-bottom: 50px;
         justify-content: space-around;
         align-items: center;
 
@@ -43,8 +44,10 @@
 
         &_article{
             width: 30%;
-            background-color: rgba(128, 128, 128, 0.349);
-            box-shadow: -5px 5px rgba(0, 0, 0, 0.562);
+            background-color: $grey;
+            box-shadow: -5px 5px $shadow;
+            border-radius: 10% 25%;
+            padding: 10px;
 
             @include for-tablet {
                 margin: 10px;

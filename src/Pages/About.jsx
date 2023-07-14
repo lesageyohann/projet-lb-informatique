@@ -17,7 +17,7 @@ function About() {
             <div className='about_coms'>
                 <article className='about_coms_article'>
                     <img className='about_coms_article_img' src={coms} alt="guillemet"/>
-                    <p className='about_coms_article_texte'>Personne à l'écoute qui prend rapidement les choses en main pour un dépannage efficace.  </p>              
+                    <p className='about_coms_article_texte'>Personne à l'écoute qui prend rapidement les choses en main pour un dépannage éfficace.  </p>              
                 </article>
 
                 <article className='about_coms_article'>

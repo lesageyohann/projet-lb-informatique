@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom'
 
-function Contact() {
+function ML() {
 
     return (
         <section className='error'>
@@ -9,10 +8,10 @@ function Contact() {
                 wip
             </div>
 
-        </section>       
+        </section>   
 
     )
 
 }
 
-export default Contact
+export default ML

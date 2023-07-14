@@ -18,8 +18,8 @@ function Header() {
                 <ul className='header_nav_list'>
                     <li className='header_nav_list_bar'>
                     <Link className= {`header_nav_list_bar_button ${activeTab === 'Accueil' ? 'active' : '' }`} onClick={() => tabClick('Accueil')} to="/">Accueil</Link>
-                    <Link className={`header_nav_list_bar_button ${activeTab === 'Contact' ? 'active' : '' }`} onClick={() => tabClick('Contact')} to="/About">Contact</Link>
-                    <Link className={`header_nav_list_bar_button ${activeTab === 'Service' ? 'active' : '' }`} onClick={() => tabClick('Service')} to="/About">Services</Link>
+                    <Link className={`header_nav_list_bar_button ${activeTab === 'Contact' ? 'active' : '' }`} onClick={() => tabClick('Contact')} to="/Contact">Contact</Link>
+                    <Link className={`header_nav_list_bar_button ${activeTab === 'Service' ? 'active' : '' }`} onClick={() => tabClick('Service')} to="/Services">Services</Link>
                     <Link className={`header_nav_list_bar_button ${activeTab === 'A Propos' ? 'active' : '' }`} onClick={() => tabClick('A Propos')} to="/About">A propos</Link>
                     </li>
                 </ul>
