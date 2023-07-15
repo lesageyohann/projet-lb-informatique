@@ -1,6 +1,7 @@
 import Part from '../Components/Part'
 import Pro from '../Components/Pro'
 import Who from '../Components/Who'
+import Acces from '../Components/Acces'
 
 function Home() {
 
@@ -9,6 +10,7 @@ function Home() {
             <Part />
             <Pro />
             <Who />
+            <Acces />
         </main>
     )
 }
