@@ -1,0 +1,74 @@
+.pro{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 360px;
+
+    @include for-tablet {
+        height: auto;
+    }
+
+    @include for-mobile {
+        height: auto;
+    }
+
+        &_title{
+            color: $red;
+        }
+
+        &_div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin-top: 30px;
+
+
+            &_art{
+                display: flex;
+                flex-direction: column;             
+                align-items: center;
+                justify-content: center;
+                border: 1px solid black;
+                box-shadow: -5px 5px $shadow;
+                border-radius: 25% 10%;
+                background-color: $grey;
+
+                @include for-tablet {
+                    margin-top: 30px;
+                }
+            
+                @include for-mobile {
+                    margin-top: 30px;
+                }
+
+
+                &_divimg{
+                    margin-top: -10px;
+
+                    &_img{
+                        width: 30px;
+                    }
+                }
+
+                &_border{
+                    width: 80%;
+                    border-bottom: 1px solid $grey;
+                    
+                }
+
+                
+
+                &_link{
+                    text-decoration: none;
+                    color: $red;
+                    font-weight: bold;
+                    margin: 30px;
+                }
+            }
+        }
+}
