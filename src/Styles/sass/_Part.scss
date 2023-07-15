@@ -36,6 +36,13 @@
                     border-right: 5px solid $blue;
                     width: 350px;
                     color: $red;
+
+                    @include for-tablet {
+                        width: 300px;
+                    }
+                    @include for-mobile {
+                        width: 300px;
+                    }
                 }
 
                 &_imgdiv{

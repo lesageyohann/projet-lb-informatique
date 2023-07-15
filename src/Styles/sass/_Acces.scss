@@ -1,7 +1,6 @@
 .acces{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 50px;
 
@@ -13,11 +12,24 @@
         display: flex;
         width: 100%;
 
+        @include for-tablet {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        @include for-mobile {
+           flex-direction: column;
+        }
+
         &_block{
-            justify-content: space-between;
 
             &_divimg{
-                width: 50%;
+
+                @include for-tablet {
+                    display: none;
+                }
+                @include for-mobile {
+                   display: none;
+                }
             }
 
             &_card{
@@ -32,14 +44,16 @@
                 margin:20px;
                 width: 150px;
                 height: 150px;
+                text-decoration: none;
+                color: black;
 
                 &_img{
                     width: 50px;
                 }
 
                 &_text{
-                    text-align: justify;
                     margin: 10px;
+                    color: $red;
                 }
             }
         }
