@@ -1,0 +1,22 @@
+.ml{
+    text-align: center;
+
+    &_art{
+        
+        &_border{
+        width: 80%;
+        border-bottom: 1px solid $grey;
+        }
+    }
+
+    
+
+    strong{
+        color: black;
+    }
+
+    a{
+        text-decoration: none;
+        color:$red;
+    }
+}
