@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projet-lb-informatique/static/css/main.703d4255.css",
+    "main.css": "/projet-lb-informatique/static/css/main.c8737ca9.css",
     "main.js": "/projet-lb-informatique/static/js/main.901adc59.js",
     "static/media/logo-nouvelle-aquitaine.png": "/projet-lb-informatique/static/media/logo-nouvelle-aquitaine.444b6de86e14bbbeed22.png",
     "static/media/pngegg.png": "/projet-lb-informatique/static/media/pngegg.93f3507f5a66644967a2.png",
@@ -13,11 +13,11 @@
     "static/media/map.png": "/projet-lb-informatique/static/media/map.a7f437c4e38cbc2c8816.png",
     "static/media/tell.png": "/projet-lb-informatique/static/media/tell.030931bcc1ccc3fe334b.png",
     "index.html": "/projet-lb-informatique/index.html",
-    "main.703d4255.css.map": "/projet-lb-informatique/static/css/main.703d4255.css.map",
+    "main.c8737ca9.css.map": "/projet-lb-informatique/static/css/main.c8737ca9.css.map",
     "main.901adc59.js.map": "/projet-lb-informatique/static/js/main.901adc59.js.map"
   },
   "entrypoints": [
-    "static/css/main.703d4255.css",
+    "static/css/main.c8737ca9.css",
     "static/js/main.901adc59.js"
   ]
 }
