@@ -1,4 +1,4 @@
-import team from '../Assets/team.png'
+import team from '../Assets/logo1.png'
 function Who(){
 
     return(

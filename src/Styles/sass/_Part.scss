@@ -32,16 +32,26 @@
                 align-items: center;
                 width: 40%;
 
+                @include for-tablet {
+                    width: 80%;
+                }
+        
+                @include for-mobile {
+                    width: 80%;
+                }
+
                 &_title{
                     border-right: 5px solid $blue;
                     width: 350px;
                     color: $red;
 
                     @include for-tablet {
-                        width: 300px;
+                        width: 50%;
+                        border-right: none;
                     }
                     @include for-mobile {
-                        width: 300px;
+                        width: 80%;
+                        border-right: none;
                     }
                 }
 
