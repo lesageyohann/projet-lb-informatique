@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/projet-lb-informatique/Home/static/css/main.703d4255.css",
-    "main.js": "/projet-lb-informatique/Home/static/js/main.f08c1650.js",
-    "static/media/logo-nouvelle-aquitaine.png": "/projet-lb-informatique/Home/static/media/logo-nouvelle-aquitaine.444b6de86e14bbbeed22.png",
-    "static/media/pngegg.png": "/projet-lb-informatique/Home/static/media/pngegg.93f3507f5a66644967a2.png",
-    "static/media/logo1.png": "/projet-lb-informatique/Home/static/media/logo1.b8555bf567288bf2da96.png",
-    "static/media/part.jpg": "/projet-lb-informatique/Home/static/media/part.d9f1519833ac6b0e0640.jpg",
-    "static/media/opti.png": "/projet-lb-informatique/Home/static/media/opti.c2f8189a5f7c57ea4017.png",
-    "static/media/server.png": "/projet-lb-informatique/Home/static/media/server.93f083c02556204c35f8.png",
-    "static/media/form.png": "/projet-lb-informatique/Home/static/media/form.95f885dc53b174251aad.png",
-    "static/media/equip.png": "/projet-lb-informatique/Home/static/media/equip.92259edffba652385e33.png",
-    "static/media/map.png": "/projet-lb-informatique/Home/static/media/map.a7f437c4e38cbc2c8816.png",
-    "static/media/tell.png": "/projet-lb-informatique/Home/static/media/tell.030931bcc1ccc3fe334b.png",
-    "index.html": "/projet-lb-informatique/Home/index.html",
-    "main.703d4255.css.map": "/projet-lb-informatique/Home/static/css/main.703d4255.css.map",
-    "main.f08c1650.js.map": "/projet-lb-informatique/Home/static/js/main.f08c1650.js.map"
+    "main.css": "/projet-lb-informatique/static/css/main.703d4255.css",
+    "main.js": "/projet-lb-informatique/static/js/main.901adc59.js",
+    "static/media/logo-nouvelle-aquitaine.png": "/projet-lb-informatique/static/media/logo-nouvelle-aquitaine.444b6de86e14bbbeed22.png",
+    "static/media/pngegg.png": "/projet-lb-informatique/static/media/pngegg.93f3507f5a66644967a2.png",
+    "static/media/logo1.png": "/projet-lb-informatique/static/media/logo1.b8555bf567288bf2da96.png",
+    "static/media/part.jpg": "/projet-lb-informatique/static/media/part.d9f1519833ac6b0e0640.jpg",
+    "static/media/opti.png": "/projet-lb-informatique/static/media/opti.c2f8189a5f7c57ea4017.png",
+    "static/media/server.png": "/projet-lb-informatique/static/media/server.93f083c02556204c35f8.png",
+    "static/media/form.png": "/projet-lb-informatique/static/media/form.95f885dc53b174251aad.png",
+    "static/media/equip.png": "/projet-lb-informatique/static/media/equip.92259edffba652385e33.png",
+    "static/media/map.png": "/projet-lb-informatique/static/media/map.a7f437c4e38cbc2c8816.png",
+    "static/media/tell.png": "/projet-lb-informatique/static/media/tell.030931bcc1ccc3fe334b.png",
+    "index.html": "/projet-lb-informatique/index.html",
+    "main.703d4255.css.map": "/projet-lb-informatique/static/css/main.703d4255.css.map",
+    "main.901adc59.js.map": "/projet-lb-informatique/static/js/main.901adc59.js.map"
   },
   "entrypoints": [
     "static/css/main.703d4255.css",
-    "static/js/main.f08c1650.js"
+    "static/js/main.901adc59.js"
   ]
 }
