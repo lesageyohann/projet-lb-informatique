@@ -11,10 +11,11 @@ import './Styles/Index.scss'
 
 
 
+
 function App() {
   
     return (
-        <body className='App'>
+        <div className='App'>
             <Header />
             <Routes>
               <Route path='/' element={<Home />}/>
@@ -25,7 +26,7 @@ function App() {
               <Route path="*" element={<Error />} />
             </Routes>
             <Footer />
-        </body>
+        </div>
       )
     }
 
