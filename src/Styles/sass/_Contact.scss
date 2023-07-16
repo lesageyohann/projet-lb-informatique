@@ -1,5 +1,6 @@
 .contact{
     margin-top: 50px;
+    margin-bottom: 50px;
 
     &_container{
         justify-content: center;
@@ -33,7 +34,6 @@
                 align-items: center;
 
                 @include for-tablet {
-                    flex-direction: column;
                 }
                 @include for-mobile {
                    flex-direction: column;
@@ -48,8 +48,6 @@
                     margin-right: 50px;
 
                     @include for-tablet {
-                        width: 80%;
-                        text-align: left;
                     }
                     @include for-mobile {
                        width:80%;
@@ -65,7 +63,6 @@
                     padding: 10px;
 
                     @include for-tablet {
-                        width: 110%;
                     }
                     @include for-mobile {
                        width:110%;
@@ -80,7 +77,6 @@
                     padding: 10px;
 
                     @include for-tablet {
-                        width: 100%;
                     }
                     @include for-mobile {
                        width:100%;
