@@ -1,3 +1,102 @@
 .contact{
     margin-top: 50px;
+
+    &_container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+
+        &_title{
+            color: $red;
+
+        }
+
+        &_form{
+            display: flex;
+            flex-direction: column;
+
+            &_stitle{
+                color: $blue;
+            }
+
+            &_border{
+                border-bottom: 1px solid $grey;
+            }
+
+            &_block{
+                margin-top: 20px;
+                display: flex;                
+                justify-content: center;
+                align-items: center;
+
+                @include for-tablet {
+                    flex-direction: column;
+                }
+                @include for-mobile {
+                   flex-direction: column;
+                }
+                
+
+                label{
+                    display: block;
+                    width: 150px;
+                    height: 30px;
+                    text-align: right;
+                    margin-right: 50px;
+
+                    @include for-tablet {
+                        width: 80%;
+                        text-align: left;
+                    }
+                    @include for-mobile {
+                       width:80%;
+                       text-align: left;
+                    }
+
+                }
+
+                input{
+                    border-radius: 10px;
+                    border: 1px solid $grey;
+                    width: 500px;
+                    padding: 10px;
+
+                    @include for-tablet {
+                        width: 110%;
+                    }
+                    @include for-mobile {
+                       width:110%;
+                    }
+                }
+
+                textarea{
+                    border-radius: 10px;
+                    border: 1px solid $grey;
+                    width: 500px;
+                    height: 250px;
+                    padding: 10px;
+
+                    @include for-tablet {
+                        width: 100%;
+                    }
+                    @include for-mobile {
+                       width:100%;
+                    }
+                }
+
+                button{
+                    background-color: $blue;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
 }
